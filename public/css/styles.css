@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+
+}
+.hero-section{
+    margin: 5px auto;
+}
+.habbit{
+   
+    min-width: 100%;
+    padding: 5px 11px;
+    margin: 5px;
+    border: 2px solid #000000;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 23px;
+    color:white;
+}
+.text-highlight{
+    color: salmon;
+    font-weight: bold;
+}
+.bg-red{
+    background: red;
+}
+.bg-green{
+    background:green;
+}
+
+
+.row,.col{
+    display: flex;
+    align-items: center;
+   
+}
+.row{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    background: #faf4e8;
+    /* min-width: 0%; */
+    padding: 3px 8px;
+    margin: 5px 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
